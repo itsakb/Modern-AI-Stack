@@ -1,0 +1,244 @@
+## Course Format (12-Week Bootcamp)
+
+Each week includes:
+
+* 📘 *Topics*
+* 🎯 *Goals*
+* 🛠 *Hands-On Tasks*
+* 📚 *Resources*
+* ✅ *Checklist*
+
+---
+
+### **Week 1: Prompt Engineering Foundations**
+
+📘 Topics:
+
+* Prompt templates, temperature, CoT, ReAct, prompt tuning intro
+
+🎯 Goals:
+
+* Write structured prompts for classification, QA, summarization
+* Understand prompt chaining
+
+🛠 Hands-On:
+
+* Try PromptLayer / LangChain PromptTemplates
+* Build Streamlit “Prompt Playground”
+
+📚 Resources:
+
+* OpenAI Cookbook, Prompt Engineering Guide
+
+✅ Checklist:
+
+* [ ] 3 prompt types written
+* [ ] Playground app built
+
+---
+
+### **Week 2: Prompt Reasoning & Evaluation**
+
+📘 Topics:
+
+* Self-consistency, few-shot patterns, hallucination control
+
+🛠 Hands-On:
+
+* Evaluate prompt outputs on real data
+* Use OutputParsers, Guardrails (optional)
+
+✅ Checklist:
+
+* [ ] 1 few-shot and 1 CoT chain tested
+* [ ] Eval report (token count, output quality)
+
+---
+
+### **Week 3: Retrieval-Augmented Generation (RAG) Basics**
+
+📘 Topics:
+
+* RAG lifecycle, embeddings, chunking, retrieval
+
+🛠 Hands-On:
+
+* Use LangChain or LlamaIndex with FAISS
+* Test retrieval quality
+
+✅ Checklist:
+
+* [ ] Build RAG Q\&A for a PDF
+* [ ] Try at least 2 vector DBs (FAISS, Chroma)
+
+---
+
+### **Week 4: RAG Enhancement & Evaluation**
+
+📘 Topics:
+
+* Query rewriting, hybrid search, metadata filters, RAGAS
+
+🛠 Hands-On:
+
+* Apply RAGAS for evaluation
+* Integrate reranking in retrieval
+
+✅ Checklist:
+
+* [ ] Create a mini dataset and RAG eval report
+* [ ] Use hybrid search
+
+---
+
+### **Week 5: Agents - LangChain + Tools**
+
+📘 Topics:
+
+* LangChain Agents, Tools, Memory
+
+🛠 Hands-On:
+
+* Build a CLI-based agent
+* Integrate OpenWeather / Google Search tools
+
+✅ Checklist:
+
+* [ ] Tool-calling agent runs locally
+* [ ] Logs actions taken by agent
+
+---
+
+### **Week 6: CrewAI / AutoGPT**
+
+📘 Topics:
+
+* Multi-agent roles, planning, task delegation
+
+🛠 Hands-On:
+
+* Build agent workflow with CrewAI (3+ roles)
+* (Optional) Try BabyAGI / AutoGPT fork
+
+✅ Checklist:
+
+* [ ] 3-agent task execution flow
+* [ ] Tasks decomposed and logged
+
+---
+
+### **Week 7: Intro to LoRA & QLoRA**
+
+📘 Topics:
+
+* Fine-tuning basics, PEFT, parameter-efficient tuning
+
+🛠 Hands-On:
+
+* Train a LoRA adapter on Alpaca/Financial data
+
+✅ Checklist:
+
+* [ ] Dataset cleaned & tokenized
+* [ ] Model fine-tuned and evaluated
+
+---
+
+### **Week 8: Ollama + vLLM**
+
+📘 Topics:
+
+* Inference optimization, quantization
+
+🛠 Hands-On:
+
+* Load model in Ollama or vLLM
+* Benchmark vs OpenAI API
+
+✅ Checklist:
+
+* [ ] Ollama model working
+* [ ] FastAPI wrapper built
+
+---
+
+### **Week 9: API + UI**
+
+📘 Topics:
+
+* FastAPI, Streamlit, Gradio integration
+
+🛠 Hands-On:
+
+* Build an API-first AI backend
+* Connect Streamlit/Gradio frontend
+
+✅ Checklist:
+
+* [ ] One full app deployed locally
+* [ ] One deployed to Hugging Face/Modal
+
+---
+
+### **Week 10: Dockerization + MCPs**
+
+📘 Topics:
+
+* Containerization, basic CI/CD, deploying on Modal/RunPod
+
+🛠 Hands-On:
+
+* Dockerize app, deploy on RunPod or Spaces
+
+✅ Checklist:
+
+* [ ] Dockerfile created and tested
+* [ ] MCP deployment live
+
+---
+
+### **Week 11: Multimodal Apps**
+
+📘 Topics:
+
+* Whisper, LLaVA, Bark, MM-ReAct
+
+🛠 Hands-On:
+
+* Image-QA, Audio transcription, multimodal chain
+
+✅ Checklist:
+
+* [ ] Multimodal inference working
+* [ ] Input → output in text + voice
+
+---
+
+### **Week 12: Multimodal Deployment**
+
+📘 Topics:
+
+* Serving multimodal LLMs
+
+🛠 Hands-On:
+
+* Multimodal chatbot deployed on Modal/Replicate
+
+✅ Checklist:
+
+* [ ] App deployed on one MCP
+* [ ] Final demo and feedback collection
+
+---
+
+### 🎓 **Capstone (Post Week 12)**
+
+**Deliverables:**
+
+* Fullstack Copilot App (RAG + Agent + LoRA + UI + Multimodal)
+* GitHub repo with README, docs, examples
+* Video demo
+
+---
+
+Would you like a Notion or PDF version of this as a course playbook or checklist tracker?
